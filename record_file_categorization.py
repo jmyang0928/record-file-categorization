@@ -100,7 +100,7 @@ for disk in range(ord('E'), ord('Z') + 1):
 
 # 若未連接硬體，程式結束
 if not found_disk:
-    print(f"X Plaud Note not found.")
+    print(f"XPlaud Note not found.")
     logging.error(f"XPlaud Note not found.")
     raise SystemExit
 
@@ -466,6 +466,8 @@ if len(success_files) == total_files:
     print(f"O Delete all files success.")
     logging.info(f"O Delete all files success.")
 
+
+# ## Convert ipynb to python file
 
 # In[ ]:
 
