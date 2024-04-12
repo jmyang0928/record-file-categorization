@@ -1,0 +1,6 @@
+{
+    "log_dir":"log",
+    "root_path":"C:/Users/jimmy",
+    "destination_path":"Course",
+    "backup_path":"record_backup"
+}
